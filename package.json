@@ -4,6 +4,7 @@
   "description": "Aqui encontraras las mejores camionetas modificadas ",
   "main": "index.js",
   "scripts": {
+    "dev": "lite-server",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -15,5 +16,11 @@
   "bugs": {
     "url": "https://github.com/Esteban-alzate-rios/taller-html-css/issues"
   },
-  "homepage": "https://github.com/Esteban-alzate-rios/taller-html-css#readme"
+  "homepage": "https://github.com/Esteban-alzate-rios/taller-html-css#readme",
+  "devDependencies": {
+    "lite-server": "^2.6.1"
+  },
+  "dependencies": {
+    "bootstrap": "^4.6.0"
+  }
 }
